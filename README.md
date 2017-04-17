@@ -8,17 +8,17 @@ SheetNameCollector
 
 ## 2.使い方
 ### (1)jarファイル作成
-ソースをチェックアウトし、
+ソースをチェックアウトし、  
 
-    mvn package
+    mvn package
 
 コマンドでjarファイルを作成してください。
 
 ### (2)バッチファイル作成
 適用な.batファイルを作成し、
 
-    java -jar sheetnamecollector-0.0.1-SNAPSHOT-jar-with-dependencies.jar ${検索対象ディレクトリ} ${検索結果の出力先ディレクトリ} 
-    pause
+    java -jar sheetnamecollector-0.0.1-SNAPSHOT-jar-with-dependencies.jar ${検索対象ディレクトリ} ${検索結果の出力先ディレクトリ}  
+    pause
 
 と記載し、同ディレクトリにjarファイルを配置してください。
 
